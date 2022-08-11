@@ -1,71 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Ivelina Kiryakova</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
-    <!-- MDB -->
-<!--    <link rel="stylesheet" href="css/mdb.min.css" />-->
-    <!-- Custom styles -->
-<!--    <link rel="stylesheet" href="css/style.css" />-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Ivelina Kiryakova</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- external css -->
+  <link rel="stylesheet" href="myWebsite.css">
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+  <!-- MDB -->
+  <!--    <link rel="stylesheet" href="css/mdb.min.css" />-->
+  <!-- Custom styles -->
+  <!--    <link rel="stylesheet" href="css/style.css" />-->
 </head>
 <body>
-      <!--Main Navigation-->
   <header>
-    <style>
-      /* Carousel styling */
-      #introCarousel,
-      .carousel-inner,
-      .carousel-item,
-      .carousel-item.active {
-        height: 100vh;
-      }
-
-      .carousel-item:nth-child(1) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(2) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(3) {
-        background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-      }
-
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #introCarousel {
-          margin-top: -58.59px;
-        }
-      }
-
-      .navbar .nav-link {
-        color: #fff !important;
-      }
-    </style>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+        <a class="navbar-brand nav-link" target="_blank" href="">
           <strong>ivelinakr</strong>
         </a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -74,9 +34,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Home</a>
-            </li>
+<!--            <li class="nav-item active">-->
+<!--              <a class="nav-link" aria-current="page" href="#intro">Home</a>-->
+<!--            </li>-->
             <!-- Icons -->
             <li class="">
               <a class="nav-link" href="https://www.linkedin.com/in/ivelina-kiryakova" rel="nofollow"
@@ -97,12 +57,12 @@
         </div>
 
         <!--Language switcher-->
-        <div class="float-right">
-          <select class="btn btn-dark" data-width="fit">
-            <option><i class="flag flag-uk"></i>English</option>
-            <option><i class="flag flag-bulgaria"></i>Български</option>
-          </select>
-        </div>
+<!--        <div class="float-right">-->
+<!--          <select class="btn btn-dark" data-width="fit">-->
+<!--            <option><i class="flag flag-uk"></i>English</option>-->
+<!--            <option><i class="flag flag-bulgaria"></i>Български</option>-->
+<!--          </select>-->
+<!--        </div>-->
 
       </div>
     </nav>
@@ -123,9 +83,32 @@
         <div class="carousel-item active">
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
             <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white text-center">
-                <h2 class="mb-3"><br></h2>
+<!--              <div class="text-white text-center">-->
+<!--                <h2 class="mb-3"><br></h2>-->
+<!--              </div>-->
+
+              <div class="carousel-caption">
+                <div id="caption-grid">
+                  <div class="grid-item1">
+                    <img src="image.jpg" class="center" height="200px" width="270px">
+                  </div>
+                  <div class="grid-item2">
+                    <h1 align="left"><br>Ivelina Kiryakova<br></h1>
+                    <h5 align="left"><br>Computer Science BSc, Newcastle University, UK<br>
+                      Quantum Computing Dissertation on using IBM Qiskit, SILQ<br><br>
+                      Back-end web development (MERN), Data Science, Security<br><br>
+                      Java, Python, C#<br><br>
+                      Based in Sofia, Bulgaria
+                    </h5>
+                  </div>
+                  <div class="grid-item3">
+
+                  </div>
+                </div>
+
+
               </div>
+
             </div>
           </div>
         </div>
@@ -286,7 +269,8 @@
     <hr class="m-0" />
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022
+      © 2022 |
+      <a href="https://www.freepik.com/author/liuzishan">Carousel vector created by liuzishan</a>
     </div>
 
   </footer>
