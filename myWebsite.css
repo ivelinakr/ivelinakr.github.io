@@ -6,9 +6,13 @@
     height: 100vh;
 }
 
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
 .carousel-item:nth-child(1) {
     /*background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');*/
-    background-image: url('bgr2.jpg');
+    background-image: url('images/bgr2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -53,6 +57,25 @@
     height: 100%;
     padding: 20px;
 }
+
+.medium-card {
+    height: 10rem;
+    width: auto;
+    padding: 20px;
+}
+
+.small-card {
+    height: 7rem;
+    width: auto;
+    padding: 20px;
+}
+
+.work-card {
+    padding: 50px;
+    margin: auto;
+}
+
+
 
 /* Height for devices larger than 576px */
 @media (min-width: 992px) {
