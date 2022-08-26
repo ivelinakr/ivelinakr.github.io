@@ -79,6 +79,12 @@
     padding: 20px;
 }
 
+.express-card {
+    height: auto;
+    width: 27rem;
+    padding: 20px;
+}
+
 .small-card {
     height: 7rem;
     width: auto;
@@ -88,6 +94,32 @@
 .work-card {
     padding: 50px;
     margin: auto;
+}
+
+@media (max-width:420px)  {
+    .bootcamp-image {
+        width: 18rem;
+    }
+
+    .carousel-caption-image {
+        width: 12rem;
+    }
+
+    .grid-item2 {
+        padding: 1.5rem;
+    }
+
+    #text1-carousel-caption {
+        font-size: 1.5rem;
+    }
+
+    #text2-carousel-caption {
+        font-size: 0.9rem;
+    }
+
+    .express-card {
+        width: 15rem;
+    }
 }
 
 @media (max-width:992px)  {
