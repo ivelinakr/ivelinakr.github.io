@@ -96,7 +96,7 @@
     margin: auto;
 }
 
-@media (max-width:420px)  {
+@media (min-width:1px) and (max-width:420px)  {
     .bootcamp-image {
         width: 18rem;
     }
@@ -122,7 +122,7 @@
     }
 }
 
-@media (min-width:420px)  {
+@media (min-width:420px) and (max-width:992px) {
     .bootcamp-image {
         width: 25rem;
     }
@@ -161,6 +161,14 @@
 
     #introCarousel {
         margin-top: -58.59px;
+    }
+
+    #text1-carousel-caption {
+        text-align: left;
+    }
+
+    .grid-item2 {
+        justify-content: left;
     }
 }
 
