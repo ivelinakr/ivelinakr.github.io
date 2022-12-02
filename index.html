@@ -14,6 +14,23 @@
   <link rel="stylesheet" href="myWebsite.css">
 </head>
 <body>
+  <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+  <script>
+    var snowflakes = new Snowflakes({
+      color: '#91deee', // Default: "#5ECDEF"
+      container: document.body,
+      count: 100, // 100 snowflakes. Default: 50
+      minOpacity: 0.1, // From 0 to 1. Default: 0.6
+      maxOpacity: 0.95, // From 0 to 1. Default: 1
+      minSize: 10, // Default: 10
+      maxSize: 50, // Default: 25
+      rotation: true, // Default: true
+      speed: 0.5, // The property affects the speed of falling. Default: 1
+      wind: true, // Without wind. Default: true
+      width: 500, // Default: width of container
+      height: 250 // Default: height of container
+    });
+  </script>
   <header>
     <nav id="navbar-icons" class="navbar navbar-dark py-3" style="z-index: 2000;">
       <a class="navbar-brand nav-link" target="_blank" href="">
@@ -63,7 +80,6 @@
         </div>
       </div>
     </div>
-
   </header>
   <main class="mt-5">
     <div class="container">
@@ -510,10 +526,11 @@
           <i class="fab fa-github fa-3x"></i></a>
       </p>
     </div>
-    </main>
+  </main>
 
-    <hr class="m-0" />
+  <hr class="m-0" />
 
+  <footer>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022 |
       <a href="https://www.freepik.com/author/liuzishan">Carousel vector created by liuzishan</a>
